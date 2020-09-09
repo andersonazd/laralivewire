@@ -23,6 +23,12 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        view()->composer('layouts.template', function ($view) {
+
+            $empresa = 'Estacionamiento Plaza';
+
+            $view->with(['empresa' => $empresa]);
+
+        });
     }
 }

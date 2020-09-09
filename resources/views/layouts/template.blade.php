@@ -10,6 +10,7 @@
     <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/favicon.ico') }}"/>
     <link href="{{ asset('assets/css/loader.css') }}" rel="stylesheet" type="text/css" />
     <script src="{{ asset('assets/js/loader.js') }}"></script>
+    
 
     <!-- STYLES GENERALES  -->
     <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&display=swap" rel="stylesheet">
@@ -390,7 +391,7 @@
           toastr.warning("POR FAVOR CONFIGURE LOS DATOS DE LA EMPRESA")
       </script>
     @endif
-    @if($tipos <= 0)
+    {{-- @if($tipos <= 0)
       <script type="text/javascript">
           toastr.warning("ES NECESARIO REGISTRAR LOS TIPOS DE VEHÍCULOS")
       </script>
@@ -409,7 +410,7 @@
       <script type="text/javascript">
           toastr.warning("NO HAY TARIFA DE COBRO PARA ALGUNOS TIPOS DE VEHÍCULOS")
       </script>
-    @endif
+    @endif --}}
      
 
 
