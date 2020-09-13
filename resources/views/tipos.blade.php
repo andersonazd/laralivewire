@@ -2,6 +2,6 @@
 
 @section('name')
 
-@livewire('cajones-controller')
+@livewire('tipos-controller')
     
 @endsection
