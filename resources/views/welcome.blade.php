@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Anderson Atehortua M
                 </div>
 
                 <div class="links">
